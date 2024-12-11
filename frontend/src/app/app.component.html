@@ -1,0 +1,24 @@
+
+<header>
+  <h1>K06 Application</h1>
+  <nav>
+    <ul>
+      <li>
+        <a routerLink="/dashboard" routerLinkActive="active" aria-label="Go to Dashboard">Dashboard</a>
+      </li>
+      <li>
+        <a routerLink="/summary" routerLinkActive="active" aria-label="Go to Summary">Summary</a>
+      </li>
+      <li>
+        <a routerLink="/reports" routerLinkActive="active" aria-label="Go to Reports">Reports</a>
+      </li>
+      <li>
+        <button (click)="logout()" aria-label="Logout">Logout</button>
+      </li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
+

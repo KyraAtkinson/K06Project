@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  button:focus,
+  button:hover {
+    outline: 2px solid #0056b3;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  nav a:hover,
+  nav a.active {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  

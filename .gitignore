@@ -1,0 +1,15 @@
+# Node.js (Backend)
+backend/node_modules/
+backend/.env
+
+# Angular (Frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/cache/
+
+# Common IDE/OS files
+.DS_Store
+*.log
+*.lock
+*.tmp
+

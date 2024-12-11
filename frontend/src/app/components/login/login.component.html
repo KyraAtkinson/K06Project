@@ -1,0 +1,33 @@
+
+<div>
+  <form (ngSubmit)="login()" aria-label="Login Form">
+    <label for="username">Username</label>
+    <input
+      id="username"
+      type="text"
+      [(ngModel)]="username"
+      name="username"
+      required
+      aria-required="true"
+    />
+
+    <label for="password">Password</label>
+    <input
+      id="password"
+      type="password"
+      [(ngModel)]="password"
+      name="password" 
+      required
+      aria-required="true"
+    />
+
+    <button type="submit">Login</button>
+  </form>
+  <p *ngIf="error" style="color: red;" role="alert" aria-live="assertive">
+    {{ error }}
+  </p>
+</div>
+
+
+
+
